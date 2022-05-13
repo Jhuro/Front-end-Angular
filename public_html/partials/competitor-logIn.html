@@ -1,0 +1,16 @@
+<form name="competitorLogIn" ng-submit="logIn()" ng-controller="logInCtrl" novalidate>
+    <h2 class="form-title">Iniciar Sesión</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Usuario(e-mail):</label>
+            <input ng-model="competitor.address" type="text" class="form-control" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Contraseña:</label>
+            <input ng-model="competitor.password" type="text" class="form-control" required/>
+        </div>
+    </div>
+    <input type="submit" value="Iniciar Sesión" class="btn btn-default">
+</form>
